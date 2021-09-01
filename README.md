@@ -37,14 +37,14 @@ $ source env/bin/activate
 **Windows** (DesktopClock.exe)
 ~~~bash
 $ source env/Scripts/activate
-(env)$ pyinstaller --clean --onefile --noconsole --icon=clock.png --name DesktopClock ./main.py
+(env)$ pyinstaller --clean --onefile --noconsole --icon=clock.ico --name DesktopClock ./main.py
 (env)$ cp -r ./images dist/
 (env)$ deactivate
 ~~~
 **Linux**
 ~~~bash
 $ source env/bin/activate
-(env)$ pyinstaller --clean --onefile --noconsole --icon=clock.png --name DesktopClock ./main.py
+(env)$ pyinstaller --clean --onefile --noconsole --icon=clock.ico --name DesktopClock ./main.py
 (env)$ cp -r ./images dist/
 (env)$ deactivate
 ~~~
